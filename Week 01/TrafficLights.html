@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Light</title>
+    <style>
+        div {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background-color: grey;
+        }
+
+        .green.light {
+            background-color: green;
+        }
+
+        .yellow.light {
+            background-color: yellow;
+        }
+
+        .red.light {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="green"></div>
+<div class="yellow"></div>
+<div class="red"></div>
+<button id="next">NEXT</button>
+<script>
+    function green() {
+        let lights = document.getElementsByTagName("div")
+        for (let i = 0; i < 3; i++) {
+            lights[i].classList.remove("light")
+        }
+        document.getElementsByClassName("green")[0].classList.add("light")
+    }
+
+    function yellow() {
+        let lights = document.getElementsByTagName("div")
+        for (let i = 0; i < 3; i++) {
+            lights[i].classList.remove("light")
+        }
+        document.getElementsByClassName("yellow")[0].classList.add("light")
+    }
+
+    function red() {
+        let lights = document.getElementsByTagName("div")
+        for (let i = 0; i < 3; i++) {
+            lights[i].classList.remove("light")
+        }
+        document.getElementsByClassName("red")[0].classList.add("light")
+    }
+
+    // 1. CALLBACK
+    /*function go() {
+        green()
+        setTimeout(function () {
+            yellow()
+            setTimeout(function () {
+                red()
+                setTimeout(function () {
+                    go()
+                }, 5000)
+            }, 2000)
+        }, 10000)
+    }*/
+
+    // 2. Promise
+    /*function sleep(t) {
+        return new Promise((resolve, reject) => {
+            setTimeout(resolve, t)
+        })
+    }
+
+    function go() {
+        green()
+        sleep(10000).then(() => {
+            yellow()
+            return sleep(2000)
+        }).then(() => {
+            red()
+            return sleep(5000)
+        }).then(go)
+    }*/
+
+    // 3. ASYNC & AWAIT
+    /*function sleep(t) {
+        return new Promise((resolve, reject) => {
+            setTimeout(resolve, t)
+        })
+    }
+
+    function happen(element, eventName) {
+        return new Promise((resolve, reject) => {
+            element.addEventListener(eventName, resolve, {once: true})
+        })
+    }
+
+    // Auto Control
+    async function go() {
+        while(true) {
+            green()
+            await sleep(10000)
+            yellow()
+            await sleep(2000)
+            red()
+            await sleep(5000)
+        }
+    }
+
+    // Manual Control
+    async function go() {
+        while(true) {
+            green()
+            await happen(document.getElementById("next"), "click")
+            yellow()
+            await happen(document.getElementById("next"), "click")
+            red()
+            await happen(document.getElementById("next"), "click")
+        }
+    }*/
+
+    //4. GENERATOR
+    function sleep(t) {
+        return new Promise((resolve, reject) => {
+            setTimeout(resolve, t)
+        })
+    }
+
+    function* go() {
+        while (true) {
+            green();
+            yield sleep(10000);
+            yellow();
+            yield sleep(2000);
+            red();
+            yield sleep(5000);
+        }
+    }
+
+    function run(iterator) {
+        let {value, done} = iterator.next();
+        if (done)
+            return;
+        if (value instanceof Promise)
+            value.then(() => {
+                run(iterator)
+            })
+    }
+
+    function co(generator) {
+        return function () {
+            return run(generator());
+        }
+    }
+
+    go = co(go);
+
+    // 5. FOR AWAIT & ASYNC GENERATOR
+    /*function sleep(t) {
+        return new Promise((resolve, reject) => {
+            setTimeout(resolve, t)
+        })
+    }
+
+    async function* counter() {
+        let i = 0
+        while(true){
+            await sleep(1000)
+            yield i++;
+        }
+    }
+
+    (async function(){
+        for await(let v of counter()){
+            console.log(v)
+        }
+    })();*/
+</script>
+</body>
+</html>

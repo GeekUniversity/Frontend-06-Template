@@ -14,9 +14,9 @@
             line-height: 80px;
             text-align: center;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
-            color: #ff0000;
-            background: #008000;
-            border: 1px solid #ffffff;
+            color: red;
+            background: green;
+            border: 1px solid white;
         }
     </style>
 </head>
@@ -148,7 +148,7 @@
                     point = [i, j]
                     result = -opp.result;
                 }
-
+                // win-lost 剪枝
                 if (result == 1)
                     break outer;
             }

@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Frontend-06-Template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 01/TicTacToe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 01/TrafficLights.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 02/Path.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week 01/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 01/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 01/TicTacToe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week 01/TicTacToe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 02/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 02/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project/2020/CW44/母婴分会场" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project/2020/CW45/澳洲爱他美光熠" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,7 +77,12 @@
       <workItem from="1603933512655" duration="9562000" />
       <workItem from="1604020937148" duration="6166000" />
       <workItem from="1604056595971" duration="1207000" />
-      <workItem from="1604107801967" duration="3771000" />
+      <workItem from="1604107801967" duration="9255000" />
+      <workItem from="1604279547127" duration="16357000" />
+      <workItem from="1604366517924" duration="18546000" />
+      <workItem from="1604452065289" duration="8809000" />
+      <workItem from="1604539200756" duration="9337000" />
+      <workItem from="1604625071769" duration="4420000" />
     </task>
     <servers />
   </component>
@@ -97,9 +102,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1603935876382">
+    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1604558948896">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1603935876382" />
+    <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1604558948896" />
   </component>
 </project>
