@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KMP</title>
+</head>
+<body>
+<script>
+    function kmp(source, pattern) {
+        // 计算table
+        let table = new Array(pattern.length).fill(0);
+        {
+            let i = 1, j = 0;
+            // console.log("i:" + i + "  j:" + j)
+            // console.log("table:" + table)
+            while (i < pattern.length) {
+                if (pattern[i] === pattern[j]) {
+                    ++i, ++j;
+                    table[i] = j;
+                } else {
+                    if (j > 0) {
+                        j = table[j];
+                    } else {
+                        ++i;
+                    }
+                }
+                // console.log("i:" + i + "  j:" + j)
+                // console.log("table:" + table)
+            }
+        }
+
+        // 匹配
+        {
+            let i = 0, j = 0;
+            // console.log("table:" + table)
+            // console.log("source:" + i + "  pattern:" + j)
+            while (i < source.length) {
+                if (pattern[j] === source[i]) {
+                    ++i, ++j;
+                } else {
+                    if (j > 0) {
+                        j = table[j];
+                    } else {
+                        ++i;
+                    }
+                }
+                // console.log("source:" + i + "  pattern:" + j)
+                if (j === pattern.length) {
+                    console.log("true")
+                    return true;
+                }
+            }
+            console.log("false")
+            return false;
+        }
+    }
+
+    // kmp("abaabaaace", "aabaaac")
+    kmp("aabaadabaacaabaac", "aabaac")
+</script>
+</body>
+</html>
