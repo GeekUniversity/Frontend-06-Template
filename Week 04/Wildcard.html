@@ -24,8 +24,8 @@
         }
 
         // 头部
-        let i = 0;
-        let lastIndex = 0;
+        let i = 0; // source索引
+        let lastIndex = 0; // 正则索引
 
         for (i = 0; pattern[i] !== "*"; i++) {
             if (pattern[i] !== source[i] && pattern[i] !== "?") {
