@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag & Drop</title>
+</head>
+<body>
+<div id="container">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque cupiditate deserunt dicta esse, et
+    facilis, fuga illum itaque minus mollitia neque numquam obcaecati officia rem repudiandae sed unde? Quos. Lorem
+    ipsum dolor sit amet, consectetur adipisicing elit. Consequatur nam necessitatibus non ratione? Facilis
+    perspiciatis porro quis soluta unde. Ea eligendi fugit illo nobis nulla odit quos ratione tempora voluptatem. Lorem
+    ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur assumenda consectetur corporis dolor
+    dolorem expedita, in magni nihil omnis placeat possimus, qui quo repellendus soluta temporibus totam ullam veniam.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur corporis cupiditate, delectus
+    doloribus, eligendi ipsum laboriosam libero neque, officiis pariatur perferendis quo sint vel vero? At expedita
+    fugiat sequi!
+</div>
+<div id="dragable" style="display: inline-block;width: 100px;height: 100px;background-color: deeppink;"></div>
+<script>
+    // 拖拽
+    let dragable = document.getElementById("dragable");
+    let baseX = 0, baseY = 0; // 已有的translate位移
+    dragable.addEventListener("mousedown", function (event) {
+        let startX = event.clientX, startY = event.clientY; // 鼠标起始坐标
+
+        let up = event => {
+            baseX = baseX + event.clientX - startX;
+            baseY = baseY + event.clientY - startY;
+            document.removeEventListener("mousemove", move);
+            document.removeEventListener("mouseup", up);
+        };
+
+        let move = event => {
+            let range = getNearest(event.clientX, event.clientY);
+            range.insertNode(dragable); // 起始位置插入节点
+            // dragable.style.transform = `translate(${baseX + event.clientX - startX}px,${baseY + event.clientY - startY}px)`;
+        };
+
+        document.addEventListener("mousemove", move);
+        document.addEventListener("mouseup", up);
+    });
+
+    //
+    let ranges = [];
+    let container = document.getElementById("container");
+    for (let i = 0; i < container.childNodes[0].textContent.length; i++) {
+        let range = document.createRange();
+        range.setStart(container.childNodes[0], i);
+        range.setEnd(container.childNodes[0], i);
+
+        // console.log(range.getBoundingClientRect());
+        ranges.push(range);
+    }
+
+    function getNearest(x, y) {
+        let min = Infinity; // infinity大于所有值
+        let nearest = null;
+        for (let range of ranges) {
+            let rect = range.getBoundingClientRect(); // 获取range包裹矩形的信息
+            let distance = (rect.x - x) ** 2 + (rect.y - y) ** 2;
+            if (distance < min) {
+                nearest = range;
+                min = distance;
+            }
+        }
+        return nearest;
+    }
+    document.addEventListener("selectstart", event => event.preventDefault()); // 取消默认选择
+</script>
+</body>
+</html>
