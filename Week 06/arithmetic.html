@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic with Bracket BNF</title>
+</head>
+<body>
+    <BracketExpression>::=<Number>|
+        "("<MultiplicativeExpression>")"|
+        "("<AddtiveExpression>")"|
+    <MultiplicativeExpression>::=<Number>|
+        <MultiplicativeExpression>"*"<Number>|
+        <MultiplicativeExpression>"/"<Number>|
+    <AddtiveExpression>::=<MultiplicativeExpression>|
+        <AddtiveExpression>"+"<MultiplicativeExpression>|
+        <AddtiveExpression>"-"<MultiplicativeExpression>|
+</body>
+</html>
