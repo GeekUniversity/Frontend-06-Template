@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week 07/Realm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 07/S2N&amp;N2S.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 04/Wildcard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week 04/Wildcard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 07/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 07/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project/2020/CW44/会员日" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目相关/世纪通201009/pricetag" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +61,21 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 07" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="S2N&amp;N2S.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-06-Template/Week 07/S2N&amp;N2S.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.S2N&amp;N2S.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +102,13 @@
       <workItem from="1605575569079" duration="5848000" />
       <workItem from="1605662250720" duration="14495000" />
       <workItem from="1605685182645" duration="8114000" />
+      <workItem from="1605861960901" duration="248000" />
+      <workItem from="1606111181925" duration="13070000" />
+      <workItem from="1606180524179" duration="16000" />
+      <workItem from="1606185001085" duration="11547000" />
+      <workItem from="1606269454209" duration="12797000" />
+      <workItem from="1607322830918" duration="11288000" />
+      <workItem from="1607391143749" duration="11088000" />
     </task>
     <servers />
   </component>
@@ -102,11 +126,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1605497207104">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1605497207104" />
   </component>
 </project>
