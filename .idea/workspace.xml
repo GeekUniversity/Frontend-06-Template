@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 07/Realm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 07/S2N&amp;N2S.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 08/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 08/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 08/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 07/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 07/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 08/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 08/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,8 +51,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目相关/世纪通201009/pricetag" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,6 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,12 +72,20 @@
       <recent name="E:\Frontend-06-Template\Week 07" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.client.js">
     <configuration name="S2N&amp;N2S.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-06-Template/Week 07/S2N&amp;N2S.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 08/client.js" working-dir="$PROJECT_DIR$/Week 08">
+      <method v="2" />
+    </configuration>
+    <configuration name="match.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 08/match.js" working-dir="$PROJECT_DIR$/Week 08">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.client.js" />
+        <item itemvalue="Node.js.match.js" />
         <item itemvalue="JavaScript Debug.S2N&amp;N2S.html" />
       </list>
     </recent_temporary>
@@ -108,7 +121,9 @@
       <workItem from="1606185001085" duration="11547000" />
       <workItem from="1606269454209" duration="12797000" />
       <workItem from="1607322830918" duration="11288000" />
-      <workItem from="1607391143749" duration="11088000" />
+      <workItem from="1607391143749" duration="11531000" />
+      <workItem from="1607996401570" duration="20460000" />
+      <workItem from="1608083991296" duration="13379000" />
     </task>
     <servers />
   </component>
