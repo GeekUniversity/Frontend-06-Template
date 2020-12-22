@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 08/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 08/match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 08/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 09/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 09/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 09/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 08/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 08/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 09/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 09/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,9 +53,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目相关/世纪通201009/pricetag" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 09" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,6 +68,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 09" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Frontend-06-Template\Week 07" />
     </key>
@@ -82,9 +85,13 @@
     <configuration name="match.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 08/match.js" working-dir="$PROJECT_DIR$/Week 08">
       <method v="2" />
     </configuration>
+    <configuration name="parser.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 09/parser.js" working-dir="$PROJECT_DIR$/Week 09">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.client.js" />
+        <item itemvalue="Node.js.parser.js" />
         <item itemvalue="Node.js.match.js" />
         <item itemvalue="JavaScript Debug.S2N&amp;N2S.html" />
       </list>
@@ -123,7 +130,10 @@
       <workItem from="1607322830918" duration="11288000" />
       <workItem from="1607391143749" duration="11531000" />
       <workItem from="1607996401570" duration="20460000" />
-      <workItem from="1608083991296" duration="13379000" />
+      <workItem from="1608083991296" duration="13709000" />
+      <workItem from="1608512930872" duration="112000" />
+      <workItem from="1608514967845" duration="22842000" />
+      <workItem from="1608598968808" duration="2366000" />
     </task>
     <servers />
   </component>
