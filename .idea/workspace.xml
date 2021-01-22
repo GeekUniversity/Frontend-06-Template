@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 12/generateCubicBezier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/apis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/rect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/reverse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/stylesheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/wiki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 13/window.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 12/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 12/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 13/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 13/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -134,7 +140,9 @@
       <workItem from="1608598968808" duration="3255000" />
       <workItem from="1608859734674" duration="76000" />
       <workItem from="1609117273328" duration="8193000" />
-      <workItem from="1610672872827" duration="9021000" />
+      <workItem from="1610672872827" duration="9401000" />
+      <workItem from="1610698516071" duration="22000" />
+      <workItem from="1610934133664" duration="20927000" />
     </task>
     <servers />
   </component>

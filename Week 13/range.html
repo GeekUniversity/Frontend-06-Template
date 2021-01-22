@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Range</title>
+</head>
+<body>
+<div id="a">
+    123<span style="background-color: pink;">456789</span>0123456789
+</div>
+<script>
+    let range = new Range();
+    // range.setStart(document.getElementById("a").childNodes[0], 3);
+    // range.setStart(document.getElementById("a").childNodes[1], 0);
+    range.setStart(document.getElementById("a").childNodes[1].childNodes[0], 3);
+    range.setEnd(document.getElementById("a").childNodes[2], 3);
+</script>
+</body>
+</html>

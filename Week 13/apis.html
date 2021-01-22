@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APIs</title>
+</head>
+<body>
+
+</body>
+<script>
+    let names = Object.getOwnPropertyNames(window);
+
+    function filterOut(names, props) {
+        let set = new Set();
+        props.forEach(o => set.add(o));
+        return names.filter(e => !set.has(e));
+    }
+
+    // ECMA 262
+    {
+        let js = new Set();
+        let objects = ["globalThis", "console", "BigInt", "BigInt64Array", "BigUint64Arry", "Infinity", "NaN", "undefined", "eval", "isFinite", "isNaN", "parseFloat", "parseInt", "decodeURI", "decodeURIComponent", "encodeURI", "encodeURIComponent", "Array", "Date", "RegExp", "Promise", "Proxy", "Map", "WeakMap", "Set", "WeakSet", "Function", "Boolean", "String", "Number", "Symbol", "Object", "Error", "EvalError", "RangeError", "ReferenceError", "SyntaxError", "TypeError", "URIError", "ArrayBuffer", "SharedArrayBuffer", "DataView", "Float32Array", "Float64Array", "Int8Array", "Int16Array", "Int32Array", "Uint8Array", "Uint16Array", "Uint32Array", "Uint8ClampedArray", "Atomics", "JSON", "Math", "Reflect", "escape", "unescape"]
+        objects.forEach(o => js.add(o));
+        names = names.filter(e => !js.has(e));
+    }
+
+    // Subclass of Node
+    names = names.filter(e => {
+        try {
+            return !(window[e].prototype instanceof Node)
+        } catch (err) {
+            return true;
+        }
+    }).filter(e => e != "Node");
+
+    // events
+    names = names.filter(e => !e.match(/^on/))
+
+    //webkit private
+    names = names.filter(e => !e.match(/^webkit/))
+
+    //https://html.spec.whatwg.org/#window
+    {
+        let names = Object.getOwnPropertyNames(window)
+        let js = new Set();
+        let objects = ["BigInt", "BigInt64Array", "BigUint64Array", "Infinity", "NaN", "undefined", "eval", "isFinite", "isNaN", "parseFloat", "parseInt", "decodeURI", "decodeURIComponent", "encodeURI", "encodeURIComponent", "Array", "Date", "RegExp", "Promise", "Proxy", "Map", "WeakMap", "Set", "WeakSet", "Function", "Boolean", "String", "Number", "Symbol", "Object", "Error", "EvalError", "RangeError", "ReferenceError", "SyntaxError", "TypeError", "URIError", "ArrayBuffer", "SharedArrayBuffer", "DataView", "Float32Array", "Float64Array", "Int8Array", "Int16Array", "Int32Array", "Uint8Array", "Uint16Array", "Uint32Array", "Uint8ClampedArray", "Atomics", "JSON", "Math", "Reflect", "escape", "unescape"]
+        objects.forEach(o => js.add(o));
+        names = names.filter(e => !js.has(e));
+
+        names = names.filter(e => {
+            try {
+                return !(window[e].prototype instanceof Node)
+            } catch (err) {
+                return true;
+            }
+        }).filter(e => e != "Node")
+
+        let windowprops = new Set();
+        objects = ["window", "self", "document", "name", "location", "history", "customElements", "locationbar", "menubar", "personalbar", "scrollbars", "statusbar", "toolbar", "status", "closed", "frames", "length", "top", "opener", "parent", "frameElement", "navigator", "originAgentCluster", "WindowPostMessageOptions"]
+        objects.forEach(o => windowprops.add(o));
+        names = names.filter(e => !windowprops.has(e));
+    }
+
+    //https://html.spec.whatwg.org/
+    {
+        let interfaces = new Set();
+        objects = ["AudioTrack",
+            "AudioTrackList",
+            "BarProp",
+            "BeforeUnloadEvent",
+            "BroadcastChannel",
+            "CanvasGradient",
+            "CanvasPattern",
+            "CanvasRenderingContext2D",
+            "CloseEvent",
+            "CustomElementRegistry",
+            "DOMParser",
+            "DOMStringList",
+            "DOMStringMap",
+            "DataTransfer",
+            "DataTransferItem",
+            "DataTransferItemList",
+            "DedicatedWorkerGlobalScope",
+            "Document",
+            "DragEvent",
+            "ElementInternals",
+            "ErrorEvent",
+            "EventSource",
+            "External",
+            "FormDataEvent",
+            "HTMLAllCollection",
+            "HTMLAnchorElement",
+            "HTMLAreaElement",
+            "HTMLAudioElement",
+            "HTMLBRElement",
+            "HTMLBaseElement",
+            "HTMLBodyElement",
+            "HTMLButtonElement",
+            "HTMLCanvasElement",
+            "HTMLDListElement",
+            "HTMLDataElement",
+            "HTMLDataListElement",
+            "HTMLDetailsElement",
+            "HTMLDialogElement",
+            "HTMLDirectoryElement",
+            "HTMLDivElement",
+            "HTMLElement",
+            "HTMLEmbedElement",
+            "HTMLFieldSetElement",
+            "HTMLFontElement",
+            "HTMLFormControlsCollection",
+            "HTMLFormElement",
+            "HTMLFrameElement",
+            "HTMLFrameSetElement",
+            "HTMLHRElement",
+            "HTMLHeadElement",
+            "HTMLHeadingElement",
+            "HTMLHtmlElement",
+            "HTMLIFrameElement",
+            "HTMLImageElement",
+            "HTMLInputElement",
+            "HTMLLIElement",
+            "HTMLLabelElement",
+            "HTMLLegendElement",
+            "HTMLLinkElement",
+            "HTMLMapElement",
+            "HTMLMarqueeElement",
+            "HTMLMediaElement",
+            "HTMLMenuElement",
+            "HTMLMetaElement",
+            "HTMLMeterElement",
+            "HTMLModElement",
+            "HTMLOListElement",
+            "HTMLObjectElement",
+            "HTMLOptGroupElement",
+            "HTMLOptionElement",
+            "HTMLOptionsCollection",
+            "HTMLOutputElement",
+            "HTMLParagraphElement",
+            "HTMLParamElement",
+            "HTMLPictureElement",
+            "HTMLPreElement",
+            "HTMLProgressElement",
+            "HTMLQuoteElement",
+            "HTMLScriptElement",
+            "HTMLSelectElement",
+            "HTMLSlotElement",
+            "HTMLSourceElement",
+            "HTMLSpanElement",
+            "HTMLStyleElement",
+            "HTMLTableCaptionElement",
+            "HTMLTableCellElement",
+            "HTMLTableColElement",
+            "HTMLTableElement",
+            "HTMLTableRowElement",
+            "HTMLTableSectionElement",
+            "HTMLTemplateElement",
+            "HTMLTextAreaElement",
+            "HTMLTimeElement",
+            "HTMLTitleElement",
+            "HTMLTrackElement",
+            "HTMLUListElement",
+            "HTMLUnknownElement",
+            "HTMLVideoElement",
+            "HashChangeEvent",
+            "History",
+            "ImageBitmap",
+            "ImageBitmapRenderingContext",
+            "ImageData",
+            "Location",
+            "MediaError",
+            "MessageChannel",
+            "MessageEvent",
+            "MessagePort",
+            "MimeType",
+            "MimeTypeArray",
+            "Navigator",
+            "OffscreenCanvas",
+            "OffscreenCanvasRenderingContext2D",
+            "PageTransitionEvent",
+            "Path2D",
+            "Plugin",
+            "PluginArray",
+            "PopStateEvent",
+            "PromiseRejectionEvent",
+            "RadioNodeList",
+            "SharedWorker",
+            "SharedWorkerGlobalScope",
+            "Storage",
+            "StorageEvent",
+            "SubmitEvent",
+            "TextMetrics",
+            "TextTrack",
+            "TextTrackCue",
+            "TextTrackCueList",
+            "TextTrackList",
+            "TimeRanges",
+            "TrackEvent",
+            "ValidityState",
+            "VideoTrack",
+            "VideoTrackList",
+            "WebSocket",
+            "Window",
+            "Worker",
+            "WorkerGlobalScope",
+            "WorkerLocation",
+            "WorkerNavigator",
+            "Worklet",
+            "WorkletGlobalScope",
+        ]
+        objects.forEach(o => interfaces.add(o))
+
+        names = names.filter(e => !interfaces.has(e));
+    }
+
+    //http://www.ecma-international.org/ecma-402/5.0/index.html#Title
+    names = names.filter(e => e != "Intl")
+
+    //https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15
+    names = filterOut(name, ["WebGLContextEvent"])
+
+    //https://www.w3.org/TR/webaudio
+    names = filterOut(names, ["BaseAudioContext", "AudioContext", "offlineAudioContext", "AudioBuffer", "AudioNode", "AudioParam", "AudioScheduledSourceNode", "AnalyserNode", "AudioBuffSourceNode", "AudioDestinationNode", "AudioListener", "AudioProcessingEvent", "BiquadFilterNode", "ChannelMergerNode", "ChannelSplitterNode", "ConstantSourceNode", "ConvolverNode", "DelayNode", "DynamicsCompressorNode", "GainNode", "IIRFilterNode", "MediaElementAudioSourceNode", "MediaStreamAudioDestinationNode", "MediaStreamAudioSourceNode", "MediaStreamTrackAudioSourceNode", "OscillatorNode", "PannerNode", "PeriodicWave", "ScriptProcessorNode", "StereoPannerNode", "WaveShaperNode", "AudioWorklet"])
+
+    //https://encoding.spec.whatwg.org/#dom-textencoder
+    names = filterOut(names, ["TextDecoder", "TextEncoder", "TextDecoderStream", "TextEncoderStream"])
+
+    //https://streams.spec.whatwg.org/#blqs-class
+    names = filterOut(names, ["ReadableStream", "ReadableStreamDefaultReader", "ReadableStreamBYOBReader", "ReadableStreamDefaultController", "ReadableByteStreamController", "ReadableStreamBYOBRequest", "WritableStream", "WritableStreamDefaultWriter", "WritableStreamDefaultController", "TransformStream", "TransformStreamDefaultController", "ByteLengthQueuingStrategy", "CountQueuingStrategy"])
+
+    //https://wicg.github.io/BackgroundSync/spec/#sync-manager-interface
+    names = filterOut(names, ["SyncManager"]);
+
+    console.log(names);
+</script>
+</html>
