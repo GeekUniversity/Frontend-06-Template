@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 13/apis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 13/range.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 13/rect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 13/reverse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 13/stylesheet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 13/wiki.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 13/window.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 14/jsx/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 13/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 13/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 14/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 14/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,11 +47,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jUBLKO11gFH3FtCh2LXWRpQWZp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -76,6 +80,8 @@
       <recent name="E:\Frontend-06-Template\Week 09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 14\jsx" />
+      <recent name="E:\Frontend-06-Template\Week 14\jsx\dist" />
       <recent name="E:\Frontend-06-Template\Week 07" />
     </key>
   </component>
@@ -143,6 +149,10 @@
       <workItem from="1610672872827" duration="9401000" />
       <workItem from="1610698516071" duration="22000" />
       <workItem from="1610934133664" duration="20927000" />
+      <workItem from="1611286093035" duration="242000" />
+      <workItem from="1611799690851" duration="1843000" />
+      <workItem from="1611833515331" duration="2962000" />
+      <workItem from="1611881164640" duration="15195000" />
     </task>
     <servers />
   </component>
@@ -160,5 +170,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
