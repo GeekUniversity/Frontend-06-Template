@@ -20,15 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 14/jsx/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/gesture/gesture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/gesture/gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/animation-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/ease.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 15/jsx/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 14/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 14/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 15/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 15/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,7 +70,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 15" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +84,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 15" />
+      <recent name="E:\Frontend-06-Template\Week 15\jsx" />
       <recent name="E:\Frontend-06-Template\Week 09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -152,7 +161,14 @@
       <workItem from="1611286093035" duration="242000" />
       <workItem from="1611799690851" duration="1843000" />
       <workItem from="1611833515331" duration="2962000" />
-      <workItem from="1611881164640" duration="15195000" />
+      <workItem from="1611881164640" duration="15953000" />
+      <workItem from="1612179063905" duration="1204000" />
+      <workItem from="1612180275663" duration="23000" />
+      <workItem from="1612180321989" duration="2376000" />
+      <workItem from="1612227312816" duration="267000" />
+      <workItem from="1612338066932" duration="11983000" />
+      <workItem from="1612399672436" duration="60000" />
+      <workItem from="1612435722599" duration="5998000" />
     </task>
     <servers />
   </component>
