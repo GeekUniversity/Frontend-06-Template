@@ -20,22 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 15/gesture/gesture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/gesture/gesture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/animation-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/ease.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 15/jsx/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/gesture/gesture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/gesture/gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/animation-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/ease.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/jsx/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 16/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 15/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 15/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 16/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 16/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +49,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1jUBLKO11gFH3FtCh2LXWRpQWZp" />
   <component name="ProjectLevelVcsManager">
@@ -70,7 +82,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 16/jsx" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,6 +96,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 16\jsx" />
+      <recent name="E:\Frontend-06-Template\Week 16" />
       <recent name="E:\Frontend-06-Template\Week 15" />
       <recent name="E:\Frontend-06-Template\Week 15\jsx" />
       <recent name="E:\Frontend-06-Template\Week 09" />
@@ -168,7 +182,10 @@
       <workItem from="1612227312816" duration="267000" />
       <workItem from="1612338066932" duration="11983000" />
       <workItem from="1612399672436" duration="60000" />
-      <workItem from="1612435722599" duration="5998000" />
+      <workItem from="1612435722599" duration="6176000" />
+      <workItem from="1612488758358" duration="33000" />
+      <workItem from="1612508374698" duration="146000" />
+      <workItem from="1612676644701" duration="8973000" />
     </task>
     <servers />
   </component>
