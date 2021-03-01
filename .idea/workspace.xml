@@ -20,26 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 16/gesture/gesture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/gesture/gesture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/animation-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/ease.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/gesture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/jsx/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 16/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/.nyc_output/a704d829-01a8-4e28-ac76-5032c326d75a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/.nyc_output/processinfo/a704d829-01a8-4e28-ac76-5032c326d75a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/.nyc_output/processinfo/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/src/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/html-parser/test/parser-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/.nyc_output/97cf5d92-025f-4230-9834-d7349fe9c16c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/.nyc_output/processinfo/97cf5d92-025f-4230-9834-d7349fe9c16c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/.nyc_output/processinfo/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 18/test-demo/test/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 16/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 16/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 18/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +89,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 16/jsx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/Week 18/test-demo/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -96,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 18" />
+      <recent name="E:\Frontend-06-Template\Week 18\html-parser" />
       <recent name="E:\Frontend-06-Template\Week 16\jsx" />
       <recent name="E:\Frontend-06-Template\Week 16" />
       <recent name="E:\Frontend-06-Template\Week 15" />
-      <recent name="E:\Frontend-06-Template\Week 15\jsx" />
-      <recent name="E:\Frontend-06-Template\Week 09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Frontend-06-Template\Week 14\jsx" />
@@ -108,27 +116,20 @@
       <recent name="E:\Frontend-06-Template\Week 07" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.client.js">
-    <configuration name="S2N&amp;N2S.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend-06-Template/Week 07/S2N&amp;N2S.html" useBuiltInWebServerPort="true">
+  <component name="RunManager">
+    <configuration name="html-parser" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options>--require @babel/register</node-options>
+      <mocha-package>$PROJECT_DIR$/Week 18/test-demo/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/Week 18/html-parser</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/Week 18/html-parser/test</test-directory>
+      <recursive>false</recursive>
       <method v="2" />
     </configuration>
-    <configuration name="client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 08/client.js" working-dir="$PROJECT_DIR$/Week 08">
-      <method v="2" />
-    </configuration>
-    <configuration name="match.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 08/match.js" working-dir="$PROJECT_DIR$/Week 08">
-      <method v="2" />
-    </configuration>
-    <configuration name="parser.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Week 09/parser.js" working-dir="$PROJECT_DIR$/Week 09">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.client.js" />
-        <item itemvalue="Node.js.parser.js" />
-        <item itemvalue="Node.js.match.js" />
-        <item itemvalue="JavaScript Debug.S2N&amp;N2S.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,6 +187,7 @@
       <workItem from="1612488758358" duration="33000" />
       <workItem from="1612508374698" duration="146000" />
       <workItem from="1612676644701" duration="8973000" />
+      <workItem from="1614560431068" duration="13935000" />
     </task>
     <servers />
   </component>
@@ -206,5 +208,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Frontend_06_Template$html_parser.dat" NAME="html-parser Coverage Results" MODIFIED="1614579523614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
