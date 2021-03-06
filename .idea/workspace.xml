@@ -20,34 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/.nycrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/sample-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/.nyc_output/24c40d86-6a28-4bd9-9706-a5877250c000.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/.nyc_output/processinfo/24c40d86-6a28-4bd9-9706-a5877250c000.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/.nyc_output/processinfo/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/.nycrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/src/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/test/sample-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 18/myvueapp2/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-tool/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-tool/publish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-tool/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-tool/sample/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/publish-tool/sample/seal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/views/error.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/views/index.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 19/server/views/layout.jade" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 17/generator-vue/generators/app/templates/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 18/generator-toytool/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week 18/generator-toytool/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 19/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 19/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +83,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 18/generator-toytool/generators/app/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week 19/publish-tool/sample" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,32 +98,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Frontend-06-Template\Week 19\publish-tool\sample" />
+      <recent name="E:\Frontend-06-Template\Week 19\publish-tool" />
       <recent name="E:\Frontend-06-Template\Week 18\generator-toytool\generators\app\templates" />
       <recent name="E:\Frontend-06-Template\Week 18" />
       <recent name="E:\Frontend-06-Template\Week 18\html-parser" />
-      <recent name="E:\Frontend-06-Template\Week 16\jsx" />
-      <recent name="E:\Frontend-06-Template\Week 16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Frontend-06-Template\Week 14\jsx" />
       <recent name="E:\Frontend-06-Template\Week 14\jsx\dist" />
       <recent name="E:\Frontend-06-Template\Week 07" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="html-parser" type="mocha-javascript-test-runner">
-      <node-interpreter>project</node-interpreter>
-      <node-options>--require @babel/register</node-options>
-      <mocha-package>$PROJECT_DIR$/Week 18/test-demo/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/Week 18/html-parser</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory>$PROJECT_DIR$/Week 18/html-parser/test</test-directory>
-      <recursive>false</recursive>
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -188,7 +166,10 @@
       <workItem from="1612488758358" duration="33000" />
       <workItem from="1612508374698" duration="146000" />
       <workItem from="1612676644701" duration="8973000" />
-      <workItem from="1614560431068" duration="17433000" />
+      <workItem from="1614560431068" duration="19320000" />
+      <workItem from="1614838329358" duration="2809000" />
+      <workItem from="1614907030609" duration="19000" />
+      <workItem from="1614998247864" duration="12695000" />
     </task>
     <servers />
   </component>
