@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week 20/git-demo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 19/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 19/NOTE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 19/publish-server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 19/publish-server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 19/publish-tool/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 19/publish-tool/publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 20/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 20/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
