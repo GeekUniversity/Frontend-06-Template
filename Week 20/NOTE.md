@@ -2,6 +2,8 @@
 ##daily build
 ##build verification test
 ##lint
-##PhantomJS
+##PhantomJS => chrome headless
+###puppeter
 ##GitHooks
+###pre-commit
 ##ESlint
