@@ -10,6 +10,9 @@
 ##Nodejs Package
 ###archiver
 ###unzipper
+###querystring
+
+
 ##Oauth
 ###publish.js
 ####1打开 https://github.com/login/oauth/authorize
