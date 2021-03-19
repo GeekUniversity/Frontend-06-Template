@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="508c82b0-82ee-4f55-b334-d41acf4c03c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 20/eslint-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 20/eslint-demo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 20/headless-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 20/headless-demo/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 20/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 20/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 20/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 20/git-demo/pre-commit.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week 20/git-demo/pre-commit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615180783925</updated>
-      <workItem from="1615180785339" duration="9800000" />
+      <workItem from="1615180785339" duration="10578000" />
+      <workItem from="1615252097603" duration="8000" />
+      <workItem from="1616149182833" duration="2360000" />
     </task>
     <servers />
   </component>
